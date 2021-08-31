@@ -1,6 +1,6 @@
 ## Challenge info
 
-![Info](/Task sources/task.png)
+![Info](https://github.com/dizzy-spell/CTF-Writeups/blob/main/YauzaCTF/Crypto/Sharing%20Secrets/Task%20sources/task.png)
 
 ## Solution
 
@@ -29,4 +29,4 @@ for i in tqdm(range(0x100 ** 3)):
 ```
 And there we have it:
 
-![Solution](/images/img_1.png)
+![Solution](https://github.com/dizzy-spell/CTF-Writeups/blob/main/YauzaCTF/Crypto/Sharing%20Secrets/images/img_1.png)
