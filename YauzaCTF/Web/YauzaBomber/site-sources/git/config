@@ -1,0 +1,13 @@
+[fetch]
+	recurseSubmodules = false
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://gitlab-ci-token:xcDrNYpNdgo-j3fc3sPy@gitlab.com/sft0/yauzactf2021/tasks/web/sms.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[gui]
+	wmstate = normal
+	geometry = 1756x877+1010+606 816 773
