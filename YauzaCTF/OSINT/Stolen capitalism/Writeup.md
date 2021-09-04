@@ -1,6 +1,6 @@
 ## Challenge info
 
-![](Task sources/task.png)
+![](task-sources/task.png)
 
 ## Solution
 
