@@ -29,4 +29,4 @@ for i in tqdm(range(0x100 ** 3)):
 ```
 And there we have it:
 
-![Solution](https://github.com/dizzy-spell/CTF-Writeups/blob/main/YauzaCTF/Crypto/Sharing%20Secrets/images/img_1.png)
+![Solution](https://github.com/dizzy-spell/CTF-Writeups/blob/main/YauzaCTF-2021/Crypto/Sharing-Secrets/images/img_1.png)
