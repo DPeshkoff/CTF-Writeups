@@ -1,6 +1,6 @@
 ## Challenge info
 
-![Info](https://github.com/dizzy-spell/CTF-Writeups/blob/main/YauzaCTF/Crypto/Sharing%20Secrets/Task%20sources/task.png)
+![Info](Task-sources/task.png)
 
 ## Solution
 
