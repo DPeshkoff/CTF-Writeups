@@ -6,7 +6,9 @@ Sources of the website are located [here](./site-sources).
 
 ## Solution
 
-Beware of the unintentional path below!
+```
+Beware of the unintentional solution below!
+```
 
 ![](images/01-design.png)
 
