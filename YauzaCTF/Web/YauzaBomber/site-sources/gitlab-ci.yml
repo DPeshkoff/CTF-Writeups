@@ -1,5 +1,0 @@
-include:
-  - project: 'sft0/yauzactf2021/task-helmchart'
-    ref: master
-    file:
-      - '.gitlab-ci-template.yml'

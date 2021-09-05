@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: red;">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+
+<div hidden class="plyr__video-embed" id="player1">
+    <iframe
+        src="https://www.youtube.com/embed/DMoCM_FgLP8"
+        allowfullscreen
+        allowtransparency
+        allow="autoplay"
+    ></iframe>
+</div>
+
+<div hidden class="plyr__video-embed" id="player2">
+    <iframe
+        src="https://www.youtube.com/embed/Bwf9f498Yqs"
+        allowfullscreen
+        allowtransparency
+        allow="autoplay"
+    ></iframe>
+</div>
+
+<div hidden class="plyr__video-embed" id="player3">
+    <iframe
+        src="https://www.youtube.com/embed/o2mD5hv0eMc"
+        allowfullscreen
+        allowtransparency
+        allow="autoplay"
+    ></iframe>
+</div>
+
+<script>
+function which_playlist_i_want_to_listen() {
+    var currenthour = new Date().getHours(); 
+
+    switch(currenthour % 3) {
+        case 0:
+            var elem = document.getElementById("player1");
+            elem.removeAttribute("hidden");
+            break;
+        case 1:
+            var elem = document.getElementById("player2");
+            elem.removeAttribute("hidden");
+            break;
+        case 2:
+            var elem = document.getElementById("player3");
+            elem.removeAttribute("hidden");
+            break;
+    }
+}
+
+which_playlist_i_want_to_listen();
+
+</script>
+
+</body>
+</html>

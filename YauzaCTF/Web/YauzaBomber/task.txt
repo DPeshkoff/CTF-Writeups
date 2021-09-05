@@ -1,5 +1,0 @@
-http://tasks.yauzactf.com:30003/
-
-RUSSIAN: Ваша задача изучить новый сервис по быстрой отправке сообщений на
-
-ENGLISH: Your task is to learn a new service for fast sending messages at
